@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exerciseD4/P65.py" beforeDir="false" afterPath="$PROJECT_DIR$/exerciseD4/P65.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +14,8 @@
     <SUITE FILE_PATH="coverage/PythonBasicD19$P1.coverage" NAME="P1 Coverage Results" MODIFIED="1574846763045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P1" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P4.coverage" NAME="P4 Coverage Results" MODIFIED="1574847379759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P4" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$Loops.coverage" NAME="Loops Coverage Results" MODIFIED="1575023960933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$OOP.coverage" NAME="OOP Coverage Results" MODIFIED="1575295592785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P66.coverage" NAME="P66 Coverage Results" MODIFIED="1575301876882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$OOP.coverage" NAME="OOP Coverage Results" MODIFIED="1575300609514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P36.coverage" NAME="P36 Coverage Results" MODIFIED="1574937177740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P36" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P33.coverage" NAME="P33 Coverage Results" MODIFIED="1574869268459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P33" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P39.coverage" NAME="P39 Coverage Results" MODIFIED="1574941604479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P39" />
@@ -104,11 +105,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OOP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            <state relative-caret-position="368">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exerciseD4/P66.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -179,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exercises/P5/P5.py" />
         <option value="$PROJECT_DIR$/exercises/P9/P9.py" />
         <option value="$PROJECT_DIR$/exercises/P10/P10.py" />
         <option value="$PROJECT_DIR$/exercises/P12/P12.py" />
@@ -230,6 +239,7 @@
         <option value="$PROJECT_DIR$/exerciseD4/P64.py" />
         <option value="$PROJECT_DIR$/exerciseD4/P65.py" />
         <option value="$PROJECT_DIR$/OOP.py" />
+        <option value="$PROJECT_DIR$/exerciseD4/P66.py" />
       </list>
     </option>
   </component>
@@ -252,6 +262,11 @@
             <path>
               <item name="PythonBasicD19" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonBasicD19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonBasicD19" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonBasicD19" type="462c0819:PsiDirectoryNode" />
+              <item name="exerciseD4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.OOP">
+  <component name="RunManager" selected="Python.P66">
     <configuration name="OOP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonBasicD19" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,28 +314,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="P60" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonBasicD19" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exerciseD4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exerciseD4/P60.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -395,13 +388,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="P66" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonBasicD19" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exerciseD4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exerciseD4/P66.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P66" />
         <item itemvalue="Python.OOP" />
         <item itemvalue="Python.P65" />
         <item itemvalue="Python.P64" />
         <item itemvalue="Python.P61" />
-        <item itemvalue="Python.P60" />
       </list>
     </recent_temporary>
   </component>
@@ -418,23 +433,23 @@
       <workItem from="1574843365698" duration="26321000" />
       <workItem from="1574886658295" duration="25416000" />
       <workItem from="1574956894914" duration="25629000" />
-      <workItem from="1575273793001" duration="19085000" />
+      <workItem from="1575273793001" duration="24829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96451000" />
+    <option name="totallyTimeSpent" value="102195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1816694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1816694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35332254" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35980552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19286872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,13 +472,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercisesD1/P17/P17.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercisesD1/P10/P10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -806,8 +814,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OOP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="368">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exerciseD4/P66.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
