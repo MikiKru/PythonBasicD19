@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exerciseD4/P65.py" beforeDir="false" afterPath="$PROJECT_DIR$/exerciseD4/P65.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,54 +11,55 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P25.coverage" NAME="P25 Coverage Results" MODIFIED="1574864674398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P25" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P22.coverage" NAME="P22 Coverage Results" MODIFIED="1574860834866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P22" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P31.coverage" NAME="P31 Coverage Results" MODIFIED="1574867009833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P31" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P1.coverage" NAME="P1 Coverage Results" MODIFIED="1574846763045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P1" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P4.coverage" NAME="P4 Coverage Results" MODIFIED="1574847379759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P4" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P19.coverage" NAME="P19 Coverage Results" MODIFIED="1574858817336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P19" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$Loops.coverage" NAME="Loops Coverage Results" MODIFIED="1575023960933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P34.coverage" NAME="P34 Coverage Results" MODIFIED="1574936824143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P34" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$OOP.coverage" NAME="OOP Coverage Results" MODIFIED="1575295592785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P36.coverage" NAME="P36 Coverage Results" MODIFIED="1574937177740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P36" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P33.coverage" NAME="P33 Coverage Results" MODIFIED="1574869268459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P33" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P39.coverage" NAME="P39 Coverage Results" MODIFIED="1574941604479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P39" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P65.coverage" NAME="P65 Coverage Results" MODIFIED="1575290673204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P9.coverage" NAME="P9 Coverage Results" MODIFIED="1574851802456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P9" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P40.coverage" NAME="P40 Coverage Results" MODIFIED="1574943317997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P40" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P42.coverage" NAME="P42 Coverage Results" MODIFIED="1574945857195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P42" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P3.coverage" NAME="P3 Coverage Results" MODIFIED="1574846868531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P3" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P16.coverage" NAME="P16 Coverage Results" MODIFIED="1574855059070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P16" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P59.coverage" NAME="P59 Coverage Results" MODIFIED="1575286745333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P27.coverage" NAME="P27 Coverage Results" MODIFIED="1574866663644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P27" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P10.coverage" NAME="P10 Coverage Results" MODIFIED="1574852153438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P10" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$StringFormatting.coverage" NAME="StringFormatting Coverage Results" MODIFIED="1575028652629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P60.coverage" NAME="P60 Coverage Results" MODIFIED="1575288127576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P54.coverage" NAME="P54 Coverage Results" MODIFIED="1575036722678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P54" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P12.coverage" NAME="P12 Coverage Results" MODIFIED="1574852922120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P12" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P41.coverage" NAME="P41 Coverage Results" MODIFIED="1574944162740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P41" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$FirstCommands.coverage" NAME="FirstCommands Coverage Results" MODIFIED="1574865841187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P5.coverage" NAME="P5 Coverage Results" MODIFIED="1574848107705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P5" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P18.coverage" NAME="P18 Coverage Results" MODIFIED="1574856120679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P18" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P21.coverage" NAME="P21 Coverage Results" MODIFIED="1574859755977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P21" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P53.coverage" NAME="P53 Coverage Results" MODIFIED="1575035340304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P53" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P56.coverage" NAME="P56 Coverage Results" MODIFIED="1575275964132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P56" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P61.coverage" NAME="P61 Coverage Results" MODIFIED="1575289192319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P24.coverage" NAME="P24 Coverage Results" MODIFIED="1574864121477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P24" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P38.coverage" NAME="P38 Coverage Results" MODIFIED="1574940010568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P38" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1575284255728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P52.coverage" NAME="P52 Coverage Results" MODIFIED="1575034327503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P52" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P23.coverage" NAME="P23 Coverage Results" MODIFIED="1574860837051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P23" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P46.coverage" NAME="P46 Coverage Results" MODIFIED="1574954793421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P46" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P55.coverage" NAME="P55 Coverage Results" MODIFIED="1575039651487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P55" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$Sequences.coverage" NAME="Sequences Coverage Results" MODIFIED="1574945668005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$ConditionalInstructions.coverage" NAME="ConditionalInstructions Coverage Results" MODIFIED="1574951488044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P64.coverage" NAME="P64 Coverage Results" MODIFIED="1575289662648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P58.coverage" NAME="P58 Coverage Results" MODIFIED="1575285667764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P17.coverage" NAME="P17 Coverage Results" MODIFIED="1574855401942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P17" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P25.coverage" NAME="P25 Coverage Results" MODIFIED="1574864674398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P25" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P22.coverage" NAME="P22 Coverage Results" MODIFIED="1574860834866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P22" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P31.coverage" NAME="P31 Coverage Results" MODIFIED="1574867009833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P31" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P19.coverage" NAME="P19 Coverage Results" MODIFIED="1574858817336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P19" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P34.coverage" NAME="P34 Coverage Results" MODIFIED="1574936824143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P34" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P65.coverage" NAME="P65 Coverage Results" MODIFIED="1575293267054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P9.coverage" NAME="P9 Coverage Results" MODIFIED="1574851802456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P9" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P40.coverage" NAME="P40 Coverage Results" MODIFIED="1574943317997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P40" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P3.coverage" NAME="P3 Coverage Results" MODIFIED="1574846868531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P3" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P16.coverage" NAME="P16 Coverage Results" MODIFIED="1574855059070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P16" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P59.coverage" NAME="P59 Coverage Results" MODIFIED="1575286745333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P10.coverage" NAME="P10 Coverage Results" MODIFIED="1574852153438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P10" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$FirstCommands.coverage" NAME="FirstCommands Coverage Results" MODIFIED="1574865841187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P21.coverage" NAME="P21 Coverage Results" MODIFIED="1574859755977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P21" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P56.coverage" NAME="P56 Coverage Results" MODIFIED="1575275964132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P56" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P61.coverage" NAME="P61 Coverage Results" MODIFIED="1575289192319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P38.coverage" NAME="P38 Coverage Results" MODIFIED="1574940010568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P38" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1575284255728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$P55.coverage" NAME="P55 Coverage Results" MODIFIED="1575039651487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P55" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P50.coverage" NAME="P50 Coverage Results" MODIFIED="1575033596756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P50" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P26.coverage" NAME="P26 Coverage Results" MODIFIED="1574866416488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P26" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P58.coverage" NAME="P58 Coverage Results" MODIFIED="1575285667764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P49.coverage" NAME="P49 Coverage Results" MODIFIED="1574954995515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P49" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P32.coverage" NAME="P32 Coverage Results" MODIFIED="1574867782453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P32" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$P17.coverage" NAME="P17 Coverage Results" MODIFIED="1574855401942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P17" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -77,15 +78,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exerciseD3/P56/P56.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
@@ -103,11 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exerciseD4/P65.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="25">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OOP.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -117,15 +118,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exerciseD4/P57.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -187,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exercises/P4/P4.py" />
         <option value="$PROJECT_DIR$/exercises/P5/P5.py" />
         <option value="$PROJECT_DIR$/exercises/P9/P9.py" />
         <option value="$PROJECT_DIR$/exercises/P10/P10.py" />
@@ -238,6 +229,7 @@
         <option value="$PROJECT_DIR$/exerciseD4/P62.py" />
         <option value="$PROJECT_DIR$/exerciseD4/P64.py" />
         <option value="$PROJECT_DIR$/exerciseD4/P65.py" />
+        <option value="$PROJECT_DIR$/OOP.py" />
       </list>
     </option>
   </component>
@@ -260,11 +252,6 @@
             <path>
               <item name="PythonBasicD19" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonBasicD19" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonBasicD19" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonBasicD19" type="462c0819:PsiDirectoryNode" />
-              <item name="exerciseD4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,8 +284,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.P65">
-    <configuration name="P59" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.OOP">
+    <configuration name="OOP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonBasicD19" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,12 +293,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exerciseD4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exerciseD4/P59.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,11 +397,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.OOP" />
         <item itemvalue="Python.P65" />
         <item itemvalue="Python.P64" />
         <item itemvalue="Python.P61" />
         <item itemvalue="Python.P60" />
-        <item itemvalue="Python.P59" />
       </list>
     </recent_temporary>
   </component>
@@ -431,23 +418,23 @@
       <workItem from="1574843365698" duration="26321000" />
       <workItem from="1574886658295" duration="25416000" />
       <workItem from="1574956894914" duration="25629000" />
-      <workItem from="1575273793001" duration="16382000" />
+      <workItem from="1575273793001" duration="19085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93748000" />
+    <option name="totallyTimeSpent" value="96451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1816694" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1816694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3873582" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35332254" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19286872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,20 +457,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercisesD1/P9/P9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercisesD1/P12/P12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercisesD1/P17/P17.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -819,8 +792,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exerciseD4/P65.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="25">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1101524448/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="817" column="8" lean-forward="true" selection-start-line="817" selection-start-column="8" selection-end-line="817" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
         </state>
       </provider>
     </entry>

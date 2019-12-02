@@ -1,5 +1,8 @@
 from random import randint
 
+
+
+
 def generateNRandomElements(n):
     elements = []
     for i in range(n):
@@ -17,3 +20,10 @@ def getElementsSupportTreshold(n, treshold):
 
 # print(generateNRandomElements(10))
 print(getElementsSupportTreshold(10, 900))
+
+from exerciseD4.P64 import returnColour
+
+print(returnColour())
+
+
+
