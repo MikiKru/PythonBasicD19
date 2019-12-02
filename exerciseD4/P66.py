@@ -27,10 +27,16 @@ p3 = Player("Jan","Matura","CZE",60, 180)
 p4 = Player("Martin","Shmidt","GER",60, 180)
 
 players = [p1,p2,p3,p4]
-for player in players:
-    print(player)
+def getPlayers():
+    for player in players:
+        print(player)
 
+def findPlayerById(findId):
+    for player in players:
+        if(player.id == findId):
+            print(player)
 
+findPlayerById(2)
 
 
 
