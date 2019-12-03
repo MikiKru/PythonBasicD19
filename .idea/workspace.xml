@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD3/P50/P50.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD3/P50/P50.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD3/P52/P52.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD3/P52/P52.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD3/P53/P53.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD3/P53/P53.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD3/P54/P54.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD3/P54/P54.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD3/P55/P55.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD3/P55/P55.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD3/P56/P56.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD3/P56/P56.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD4/P57.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD4/P57.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD4/P58.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD4/P58.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD4/P59.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD4/P59.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD4/P60.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD4/P60.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD4/P61.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD4/P61.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD4/P62.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD4/P62.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD4/P64.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD4/P64.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD4/P65.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD4/P65.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD4/P66.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD4/P66.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exerciseD4/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD4/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +22,14 @@
     <SUITE FILE_PATH="coverage/PythonBasicD19$StringFormatting.coverage" NAME="StringFormatting Coverage Results" MODIFIED="1575028652629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P60.coverage" NAME="P60 Coverage Results" MODIFIED="1575288127576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P54.coverage" NAME="P54 Coverage Results" MODIFIED="1575036722678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P54" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$Student.coverage" NAME="Student Coverage Results" MODIFIED="1575370452138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD5/P67/model" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P12.coverage" NAME="P12 Coverage Results" MODIFIED="1574852922120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P12" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P41.coverage" NAME="P41 Coverage Results" MODIFIED="1574944162740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P41" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P5.coverage" NAME="P5 Coverage Results" MODIFIED="1574848107705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P5" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P18.coverage" NAME="P18 Coverage Results" MODIFIED="1574856120679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P18" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P53.coverage" NAME="P53 Coverage Results" MODIFIED="1575035340304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P53" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P24.coverage" NAME="P24 Coverage Results" MODIFIED="1574864121477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P24" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$homework.coverage" NAME="homework Coverage Results" MODIFIED="1575367432867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$homework.coverage" NAME="homework Coverage Results" MODIFIED="1575370354403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P52.coverage" NAME="P52 Coverage Results" MODIFIED="1575034327503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P52" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P23.coverage" NAME="P23 Coverage Results" MODIFIED="1574860837051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P23" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P46.coverage" NAME="P46 Coverage Results" MODIFIED="1574954793421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P46" />
@@ -95,11 +78,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercisesD5/P67/Main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercisesD5/P67/model/Student.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -141,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exercises/P12/P12.py" />
         <option value="$PROJECT_DIR$/exercises/P16/P16.py" />
         <option value="$PROJECT_DIR$/exercises/P17/P17.py" />
         <option value="$PROJECT_DIR$/exercises/P18/P18.py" />
@@ -192,6 +183,7 @@
         <option value="$PROJECT_DIR$/exerciseD4/P66.py" />
         <option value="$PROJECT_DIR$/homework/homework.py" />
         <option value="$PROJECT_DIR$/exercisesD5/P67.py" />
+        <option value="$PROJECT_DIR$/exercisesD5/P67/model/Student.py" />
       </list>
     </option>
   </component>
@@ -224,6 +216,13 @@
               <item name="exercisesD5" type="462c0819:PsiDirectoryNode" />
               <item name="P67" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PythonBasicD19" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonBasicD19" type="462c0819:PsiDirectoryNode" />
+              <item name="exercisesD5" type="462c0819:PsiDirectoryNode" />
+              <item name="P67" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -240,6 +239,9 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Szkolenia\Programowanie\PWN\DataAnalyst\Projects\PythonBasicD19\exercisesD5\P67" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Szkolenia\Programowanie\PWN\DataAnalyst\Projects\PythonBasicD19" />
     </key>
@@ -256,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.homework">
+  <component name="RunManager" selected="Python.Student">
     <configuration name="OOP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonBasicD19" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,28 +273,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="P64" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonBasicD19" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exerciseD4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exerciseD4/P64.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,6 +325,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Student" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonBasicD19" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercisesD5/P67/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercisesD5/P67/model/Student.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="homework" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonBasicD19" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -369,11 +371,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Student" />
         <item itemvalue="Python.homework" />
         <item itemvalue="Python.P66" />
         <item itemvalue="Python.OOP" />
         <item itemvalue="Python.P65" />
-        <item itemvalue="Python.P64" />
       </list>
     </recent_temporary>
   </component>
@@ -391,23 +393,24 @@
       <workItem from="1574886658295" duration="25416000" />
       <workItem from="1574956894914" duration="25629000" />
       <workItem from="1575273793001" duration="26037000" />
-      <workItem from="1575361400648" duration="6721000" />
+      <workItem from="1575361400648" duration="7987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110124000" />
+    <option name="totallyTimeSpent" value="111390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19594595" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19594595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.021994134" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.20821114" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2521994" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.0659824" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -440,13 +443,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercisesD1/P18/P18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercisesD1/P3/P3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -791,6 +787,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercisesD5/P67/model/Student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
