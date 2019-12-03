@@ -30,7 +30,7 @@
     <SUITE FILE_PATH="coverage/PythonBasicD19$P18.coverage" NAME="P18 Coverage Results" MODIFIED="1574856120679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P18" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P53.coverage" NAME="P53 Coverage Results" MODIFIED="1575035340304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P53" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P24.coverage" NAME="P24 Coverage Results" MODIFIED="1574864121477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P24" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$homework.coverage" NAME="homework Coverage Results" MODIFIED="1575365877507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$homework.coverage" NAME="homework Coverage Results" MODIFIED="1575367215884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P52.coverage" NAME="P52 Coverage Results" MODIFIED="1575034327503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD3/P52" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P23.coverage" NAME="P23 Coverage Results" MODIFIED="1574860837051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P23" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P46.coverage" NAME="P46 Coverage Results" MODIFIED="1574954793421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P46" />
@@ -118,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework/homework.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+            <state relative-caret-position="773">
+              <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -450,23 +450,22 @@
       <workItem from="1574886658295" duration="25416000" />
       <workItem from="1574956894914" duration="25629000" />
       <workItem from="1575273793001" duration="26037000" />
-      <workItem from="1575361400648" duration="4488000" />
+      <workItem from="1575361400648" duration="5878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107891000" />
+    <option name="totallyTimeSpent" value="109281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15202703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.102639295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19286872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -838,8 +837,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/homework.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        <state relative-caret-position="773">
+          <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="31" />
         </state>
       </provider>
     </entry>

@@ -30,22 +30,33 @@ class Warcaby:
 
     def checkMoveFromTo(self, rowStart, columnStart, rowStop, columnStop, type):
         # sprawdzam czy punkty znajdują się w kluczach naszych słowników
-        if(rowStart in self.warcaby.keys() and columnStart in self.warcaby[rowStart].keys()):
+        if(rowStart in self.warcaby.keys() and columnStart in self.warcaby[rowStart].keys()
+                and (self.warcaby[rowStart][columnStart] == "X" or self.warcaby[rowStart][columnStart] == "O")):
             # sprawdzenie poprawności ruchu pionka X
             if(type == "X" and rowStop == (rowStart + 1)
                     and (columnStop == (columnStart + 1) or (columnStop == (columnStart - 1)))
                     and columnStop >= 1 and columnStop <= 8 and rowStop >= 1 and rowStop <=8):
-                print("ruch poprawny dla pionka x")
+                self.movePoint(rowStart,columnStart,rowStop,columnStop,type)    # wywołanie metody klasowej
             # sprawdzenie poprawności ruchu pionka O
             elif(type == "O" and rowStop == (rowStart - 1)
                     and (columnStop == (columnStart + 1) or (columnStop == (columnStart - 1)))
                     and columnStop >= 1 and columnStop <= 8 and rowStop >= 1 and rowStop <= 8):
-                print("ruch poprawny dla pionka o")
+                self.movePoint(rowStart, columnStart, rowStop, columnStop, type)
             else:
                 print("Błędny ruch")
         else:
             print("błędny adres pionka")
+
+    def movePoint(self, rowStart, columnStart, rowStop, columnStop, type):
+        # Przesunięcie pionka na nową pozycję
+        self.warcaby[rowStop][columnStop] = type
+        # aktualizacja pustego miejsca pozostałego po pionku
+        self.warcaby[rowStart][columnStart] = "_"
+        self.printBoard()
+
 w1 = Warcaby()
 w1.printBoard()
 w1.getPoint()
-w1.checkMoveFromTo(3,1,4,0,"X")
+w1.checkMoveFromTo(3,1,4,2,"X")
+w1.checkMoveFromTo(4,2,5,1,"X")
+w1.checkMoveFromTo(4,4,5,5,"X")
