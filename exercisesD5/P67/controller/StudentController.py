@@ -38,6 +38,13 @@ class StudentController:
             self.getStudents()
         else:
             print("Podałeś niepoprawną ocenę")
+    # metoda do usuwania studenta po indeksie
+    def deleteStudentByIndex(self, inputIndex):
+        for student in self.students:
+            if(student.index == inputIndex):
+                print("Usunięto", student)
+                self.students.remove(student)
+        self.getStudents()
     # metoda wypisująca wszystkich studentów z listy students
     def getStudents(self):
         print("| %6s | %15s | %15s | %20s | %7s |"
@@ -54,6 +61,8 @@ sc.addGradeToStudent(123123,4)
 sc.addGradeToStudent(123123,3)
 sc.addGradeToStudent(123121,3)  # blad danych
 sc.addGradeToStudent(123123,33)  # blad danych
+sc.deleteStudentByIndex(123123)
+
 
 
 
