@@ -51,6 +51,15 @@ class StudentController:
               % ("INDEKS", "IMIĘ", "NAZWISKO","OCENY","ŚREDNIA"))
         for student in self.students:
             print(student)
+    def __del__(self):      # destruktor wywołyje się automatycznie gdy niszczony jest obiekt z pp
+        # otwarcie pliku
+        outputFile = open("database.csv","w")
+        # aktualizacja zawartości pliku
+        for student in self.students:
+            outputFile.write(student.index+";"+student.name+";"+student.lastname+
+                             ";"+str(student.grades)+";"+str(student.calculateAVG()+"\n"))
+        # zamknięcie strumienia danych
+        outputFile.close()
 
 # testowanie kontrolera
 # sc = StudentController()
