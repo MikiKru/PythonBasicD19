@@ -6,6 +6,22 @@ from exercisesD5.P67.model.Student import Student
 
 class StudentController:
     students = []
+    # konstruktor - pobranie i aktualizacja listy studentów z pliku
+    def __init__(self):
+        inputFile = open("database.csv","r")    # otwarcie pliku do odczytu
+        for line in inputFile.readlines():
+            # każdą linijkę z pliku mapujemy na obiekt student
+            rowData = line.split(";")
+            # czyszczenie napisu zawierającego oceny z {[ ] , }
+            grades = rowData[3].replace("[", "").replace("]", "").split(", ")
+            # konwersja ocen na float
+            for index, grade in enumerate(grades):
+                grades[index] = float(grade)
+            # utowrzenie obiektu studenta na podstawie danych z jednej linii pliku
+            s = Student(rowData[0], rowData[1], rowData[2], grades)
+            # zapis zmapowanego obiektu do listy students
+            self.students.append(s)
+        inputFile.close()                       # zamknięcie strumienia danych do pliku
     # metoda dodającą studenta do listy
     def addStudent(self, index, name, lastname):
         if(self.validateStudentIndex(index)):   # wywołanie walidacji
@@ -57,7 +73,7 @@ class StudentController:
         # aktualizacja zawartości pliku
         for student in self.students:
             outputFile.write(student.index+";"+student.name+";"+student.lastname+
-                             ";"+str(student.grades)+";"+str(student.calculateAVG()+"\n"))
+                             ";"+str(student.grades)+";"+str(student.calculateAVG())+"\n")
         # zamknięcie strumienia danych
         outputFile.close()
 
