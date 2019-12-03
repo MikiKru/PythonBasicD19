@@ -1,6 +1,8 @@
 # Kontroller -> klasa obsługi żądań użytkownika pochodzących
 # z widoku (html, cli, window)
 # Implementuje logikę aplikacji
+import datetime
+
 from exercisesD5.P67.model.Student import Student
 
 
@@ -9,7 +11,10 @@ class StudentController:
     # konstruktor - pobranie i aktualizacja listy studentów z pliku
     def __init__(self):
         inputFile = open("database.csv","r")    # otwarcie pliku do odczytu
-        for line in inputFile.readlines():
+        for index, line in enumerate(inputFile.readlines()):
+            if(index == 0):
+                print(line)     # wypisujemy datę aktualizacji
+                continue
             # każdą linijkę z pliku mapujemy na obiekt student
             rowData = line.split(";")
             # czyszczenie napisu zawierającego oceny z {[ ] , }
@@ -73,6 +78,7 @@ class StudentController:
     def __del__(self):      # destruktor wywołyje się automatycznie gdy niszczony jest obiekt z pp
         # otwarcie pliku
         outputFile = open("database.csv","w")
+        outputFile.write("data aktualizacji: " + str(datetime.datetime.now()) + "\n")
         # aktualizacja zawartości pliku
         for student in self.students:
             outputFile.write(student.index+";"+student.name+";"+student.lastname+
