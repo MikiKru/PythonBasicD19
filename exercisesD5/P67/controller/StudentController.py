@@ -26,11 +26,15 @@ class StudentController:
     def addGradeToStudent(self,inputIndex, grade):
         gradesTemplate = [2,3,3.5,4,4.5,5,5.5]
         if(grade in gradesTemplate):
+            isAdded = False
             for student in self.students:
                 if (student.index == inputIndex):
+                    isAdded = True
                     student.addGrade(grade)
                     print("DODANO OCENĘ")
             # wypisz zaktualizowaną listę studentów
+            if(isAdded == False):
+                print("Nie ma studenta o takim indeksie")
             self.getStudents()
         else:
             print("Podałeś niepoprawną ocenę")
@@ -46,3 +50,11 @@ sc = StudentController()
 sc.addStudent(123123, "test","test")
 sc.addStudent(123123, "test2","test2")
 sc.getStudents()
+sc.addGradeToStudent(123123,4)
+sc.addGradeToStudent(123123,3)
+sc.addGradeToStudent(123121,3)  # blad danych
+sc.addGradeToStudent(123123,33)  # blad danych
+
+
+
+
