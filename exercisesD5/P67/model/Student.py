@@ -3,11 +3,11 @@
 # rzutuje cechy danych pochodzące z tabelki SQL na obiekt Python
 class Student:
     # konstruktor klasy
-    def __init__(self, index, name, lastname):
+    def __init__(self, index, name, lastname, grades=[]):
         self.index = index
         self.name = name
         self.lastname = lastname
-        self.grades = []
+        self.grades = grades
     # metoda do dodawania ocen do listy grades
     def addGrade(self, grade):
         self.grades.append(grade)

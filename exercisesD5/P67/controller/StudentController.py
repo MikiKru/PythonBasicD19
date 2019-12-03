@@ -15,8 +15,11 @@ class StudentController:
             # czyszczenie napisu zawierającego oceny z {[ ] , }
             grades = rowData[3].replace("[", "").replace("]", "").split(", ")
             # konwersja ocen na float
-            for index, grade in enumerate(grades):
-                grades[index] = float(grade)
+            try:
+                for index, grade in enumerate(grades):
+                    grades[index] = float(grade)
+            except:
+                grades = []
             # utowrzenie obiektu studenta na podstawie danych z jednej linii pliku
             s = Student(rowData[0], rowData[1], rowData[2], grades)
             # zapis zmapowanego obiektu do listy students
