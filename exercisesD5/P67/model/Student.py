@@ -20,7 +20,7 @@ class Student:
             cumSum += grade
         return cumSum/len(self.grades)
     def __str__(self):
-        return "| %6d | %15s | %15s | %20s | %7s |" % \
+        return "| %6s | %15s | %15s | %20s | %7s |" % \
                (self.index, self.name, self.lastname, self.grades,
                 "B/D" if self.calculateAVG() == 0 else round(self.calculateAVG(),2))
 

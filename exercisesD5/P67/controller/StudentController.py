@@ -53,15 +53,15 @@ class StudentController:
             print(student)
 
 # testowanie kontrolera
-sc = StudentController()
-sc.addStudent(123123, "test","test")
-sc.addStudent(123123, "test2","test2")
-sc.getStudents()
-sc.addGradeToStudent(123123,4)
-sc.addGradeToStudent(123123,3)
-sc.addGradeToStudent(123121,3)  # blad danych
-sc.addGradeToStudent(123123,33)  # blad danych
-sc.deleteStudentByIndex(123123)
+# sc = StudentController()
+# sc.addStudent(123123, "test","test")
+# sc.addStudent(123123, "test2","test2")
+# sc.getStudents()
+# sc.addGradeToStudent(123123,4)
+# sc.addGradeToStudent(123123,3)
+# sc.addGradeToStudent(123121,3)  # blad danych
+# sc.addGradeToStudent(123123,33)  # blad danych
+# sc.deleteStudentByIndex(123123)
 
 
 
