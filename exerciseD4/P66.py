@@ -36,7 +36,7 @@ def findPlayerById(findId):
         if(player.id == findId):
             print(player)
 
-getPlaygit ers()
+getPlayers()
 print()
 findPlayerById(2)
 
