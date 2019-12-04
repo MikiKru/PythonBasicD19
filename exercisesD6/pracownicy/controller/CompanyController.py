@@ -1,3 +1,5 @@
+import hashlib
+
 from exercisesD6.pracownicy.model.Employee import Employee, Permission
 from exercisesD6.pracownicy.model.Trainee import Trainee
 
@@ -78,5 +80,38 @@ class CompanyController:
         if(isEmployee == False):
             print("Błędyn login lub typ pracownika")
         self.getEmployees()
-    #7. usuwanie pracownika lub praktykanta z listy
+    #7. usuwanie pracownika lub praktykanta z listy po loginie
+    def deleteEmployeeOrTraineeByLogin(self, login):
+        isFound = False
+        for e in self.employees:
+            if(e.login == login):
+                isFound = True
+                self.employees.remove(e)
+                print("Usisnięto: ", e.login)
+        if(isFound == False):
+            print("Nie ma takiego pracownika")
+        # 7* z potwierdzeniem hasłem
+    def deleteEmployeeOrTraineeByLoginWithConfirm(self, login):
+        isFound = False
+        for e in self.employees:
+            if (e.login == login):
+                isFound = True
+                if(e.password == hashlib.md5(
+                        ("salt:XYZ"+input("potwierdz usuwanie hasłem")).
+                                encode('utf-8')).hexdigest()):
+                    self.employees.remove(e)
+                    print("Usisnięto: ", e.login)
+                else:
+                    print("Błąd potwierdzenia")
+        if (isFound == False):
+            print("Nie ma takiego pracownika")
+
+
+
+
+
+
+
+
+
 
