@@ -17,7 +17,10 @@ class Employee(Trainee):
     def __str__(self):
         return super().__str__() + " %5s |" %(self.permission.value)
 
-e = Employee("mk","mk","PYTHON DEV",10000)
-e1 = Employee("mk1","mk1","PYTHON DEV",11000,Permission.ROLE_MAN)
-print(e)
-print(e1)
+# e = Employee("mk","mk","PYTHON DEV",10000)
+# e1 = Employee("mk1","mk1","PYTHON DEV",11000,Permission.ROLE_MAN)
+# e.assignPrise(5000)
+# print(e)
+# print(e1)
+# t = Trainee("x","x")
+# print(t)

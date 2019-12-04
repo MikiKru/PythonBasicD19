@@ -6,7 +6,7 @@ class Trainee:
         self.possition = "PRAKTYKANT"
         self.salary = 0
     def assignPrise(self, amount):
-        self.salary = amount
+        self.salary += amount
     def __str__(self):
         return "| %15s | %55s | %15s | %13.2fzł |" % \
         (self.login, self.password, self.possition, self.salary)
