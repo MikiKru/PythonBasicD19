@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/exercisesD6/pracownicy/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD6/pracownicy/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercisesD6/pracownicy/controller/CompanyController.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD6/pracownicy/controller/CompanyController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercisesD6/pracownicy/model/Trainee.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD6/pracownicy/model/Trainee.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     <SUITE FILE_PATH="coverage/PythonBasicD19$P22.coverage" NAME="P22 Coverage Results" MODIFIED="1574860834866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P22" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P31.coverage" NAME="P31 Coverage Results" MODIFIED="1574867009833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P31" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P19.coverage" NAME="P19 Coverage Results" MODIFIED="1574858817336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P19" />
-    <SUITE FILE_PATH="coverage/PythonBasicD19$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1575459098631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD6/pracownicy" />
+    <SUITE FILE_PATH="coverage/PythonBasicD19$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1575461140244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD6/pracownicy" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P34.coverage" NAME="P34 Coverage Results" MODIFIED="1574936824143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercisesD2/P34" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P65.coverage" NAME="P65 Coverage Results" MODIFIED="1575293267054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exerciseD4" />
     <SUITE FILE_PATH="coverage/PythonBasicD19$P9.coverage" NAME="P9 Coverage Results" MODIFIED="1574851802456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/P9" />
@@ -86,7 +86,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.8102564">
+    <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
@@ -128,11 +128,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/model/Trainee.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+                <state relative-caret-position="223">
+                  <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -152,8 +152,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/controller/CompanyController.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="50">
-                  <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+                <state relative-caret-position="385">
+                  <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#70#0" expanded="true" />
                   </folding>
@@ -161,11 +161,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/Main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+                <state relative-caret-position="94">
+                  <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#81#0" expanded="true" />
                   </folding>
@@ -197,12 +197,12 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/Main.py">
+            <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/controller/CompanyController.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+                <state relative-caret-position="50">
+                  <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
                   <folding>
-                    <element signature="e#0#81#0" expanded="true" />
+                    <element signature="e#0#70#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -297,9 +297,9 @@
         <option value="$PROJECT_DIR$/exercisesD5/P67/controller/StudentController.py" />
         <option value="$PROJECT_DIR$/OOP_extends.py" />
         <option value="$PROJECT_DIR$/exercisesD6/pracownicy/model/Employee.py" />
-        <option value="$PROJECT_DIR$/exercisesD6/pracownicy/controller/CompanyController.py" />
-        <option value="$PROJECT_DIR$/exercisesD6/pracownicy/Main.py" />
         <option value="$PROJECT_DIR$/exercisesD6/pracownicy/model/Trainee.py" />
+        <option value="$PROJECT_DIR$/exercisesD6/pracownicy/Main.py" />
+        <option value="$PROJECT_DIR$/exercisesD6/pracownicy/controller/CompanyController.py" />
       </list>
     </option>
   </component>
@@ -505,22 +505,23 @@
       <workItem from="1574956894914" duration="25629000" />
       <workItem from="1575273793001" duration="26037000" />
       <workItem from="1575361400648" duration="16784000" />
-      <workItem from="1575382558243" duration="17155000" />
+      <workItem from="1575382558243" duration="19165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137342000" />
+    <option name="totallyTimeSpent" value="139352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2667758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.051863857" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17179903" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0659824" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -895,26 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/controller/CompanyController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/model/Employee.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -927,8 +908,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/model/Trainee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="223">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercisesD6/pracownicy/controller/CompanyController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

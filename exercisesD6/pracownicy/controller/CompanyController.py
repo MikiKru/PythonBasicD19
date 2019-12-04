@@ -33,14 +33,20 @@ class CompanyController:
         return True
     #2. wyświetlenie wszystkich pracowników i praktykantów posortowanych po pensji DESC
     def getEmployees(self):
-        for e in self.employees:
+        # sortowanie po pensji
+        for e in sorted(self.employees, key=lambda e : e.salary, reverse=True):
             print(e)
+    #3. wyświetlenie tylko kierowników lub dyrektorów posortowanych po loginie A-Z
+
+    #4. wyświetlenie praktykantów posortowanych po loginie Z-A
+    def getTraineeOrderByLogin(self):
+        # filtruje liste pracowników i zwraca tylko praktykantów
+        result = filter(lambda e : e.__class__.__name__ == "Trainee", self.employees)
+        for t in sorted(result,key=lambda t : t.login, reverse=True):
+            print(t)
     # przypisanie nagrody do pracownika lub praktykanta
 
     # zmiana pensji tylko dla pracownika
 
     # usuwanie pracownika lub praktykanta z listy
 
-    # wyświetlenie tylko kierowników
-
-    # wyświetlenie praktykantów
