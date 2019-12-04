@@ -9,6 +9,11 @@ def getConnection():
 
 class Hello:
     def __init__(self, name):
+        ''' Inicjalizacja zmienna imię @author '''
         self.name = name
     def __str__(self):
         return "Hello %s" % (self.name)
+
+# # uruchomienie skryptu
+# h = Hello("x")
+# print(h)
