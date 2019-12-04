@@ -97,7 +97,7 @@ class CompanyController:
             if (e.login == login):
                 isFound = True
                 if(e.password == hashlib.md5(
-                        ("salt:XYZ"+input("potwierdz usuwanie hasłem")).
+                        ("salt:XYZ"+input("potwierdz usuwanie hasłem").strip(" ")).
                                 encode('utf-8')).hexdigest()):
                     self.employees.remove(e)
                     print("Usisnięto: ", e.login)
@@ -105,7 +105,7 @@ class CompanyController:
                     print("Błąd potwierdzenia")
         if (isFound == False):
             print("Nie ma takiego pracownika")
-
+        self.getEmployees()
 
 
 
