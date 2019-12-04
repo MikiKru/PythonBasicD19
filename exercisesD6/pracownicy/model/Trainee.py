@@ -8,8 +8,8 @@ class Trainee:
     def assignPrise(self, amount):
         self.salary += amount
     def __str__(self):
-        return "| %15s | %55s | %15s | %13.2fzł |" % \
-        (self.login, self.password, self.possition, self.salary)
+        return "| %15s | %20s | %15s | %13.2fzł |" % \
+        (self.login, self.password[0:4], self.possition, self.salary)
 
 # #test
 # t = Trainee("MichałK","qwe123")

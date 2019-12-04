@@ -1,7 +1,6 @@
 from exercisesD6.pracownicy.model.Employee import Employee, Permission
 from exercisesD6.pracownicy.model.Trainee import Trainee
 
-
 class CompanyController:
     employees = [
         Employee("mk1","mk1","PYTHON DEV",11000,Permission.ROLE_EMPL),
@@ -17,9 +16,25 @@ class CompanyController:
         Trainee("t3","t3")
     ]
     #1. dodawanie pracownika lub praktykanta z unikatowym loginem
-
-    #2. wyświetlenie wszystkich pracowników i praktykantów posortowanych po pencji DESC
-
+    def addEmployeeOrTrainee(self, o):
+        if(o.__class__.__name__ == "Trainee" or o.__class__.__name__ == "Employee"):
+            if(self.loginValid(o.login)):
+                print("Dodano pracownika", o.login, o.possition)
+                self.employees.append(o)
+            else:
+                print("Istnieje już taki login w naszej bazie danych")
+        else:
+            print("Dany obiekt nie jest pracownikiem ani praktykantem")
+    # 1* sprawdzenie czy dany login nie istnieje w liście employees
+    def loginValid(self, login):
+        for e in self.employees:
+            if(e.login == login):
+                return False
+        return True
+    #2. wyświetlenie wszystkich pracowników i praktykantów posortowanych po pensji DESC
+    def getEmployees(self):
+        for e in self.employees:
+            print(e)
     # przypisanie nagrody do pracownika lub praktykanta
 
     # zmiana pensji tylko dla pracownika
