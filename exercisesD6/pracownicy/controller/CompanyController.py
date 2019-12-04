@@ -96,9 +96,8 @@ class CompanyController:
         for e in self.employees:
             if (e.login == login):
                 isFound = True
-                if(e.password == hashlib.md5(
-                        ("salt:XYZ"+input("potwierdz usuwanie hasłem").strip(" ")).
-                                encode('utf-8')).hexdigest()):
+                inputPasswd =input("potwierdz usuwanie hasłem").strip(" ")
+                if(e.password == hashlib.md5(("salt:XYZ"+inputPasswd).encode('utf-8')).hexdigest()):
                     self.employees.remove(e)
                     print("Usisnięto: ", e.login)
                 else:
