@@ -4,10 +4,10 @@
 import exercisesD6.imports.SecretVariables as sv
 import random as rnd
 
-for i in dir(rnd):
-    print(i)
-
-help(rnd)
+# for i in dir(rnd):
+#     print(i)
+#
+# help(rnd)
 # # dostęp do zmiennych
 # print(sv.database)
 # print(sv.username)
@@ -21,3 +21,16 @@ help(rnd)
 # print(obiektKlasyZaimportowanej.name)
 # print(obiektKlasyZaimportowanej)
 
+import os
+
+print("Direct ref", os.getcwd())
+print("Direct ref", "D:\\Szkolenia\\Programowanie\\PWN\\DataAnalyst\\Projects\\PythonBasicD19\\exercisesD6\\imports\\DatabaseApplication.py")
+
+print("W katalogu w którym się znajdujemy aktualnie:")
+for i in os.listdir('.'):
+    print(i)
+
+
+print("W katalogu pracowników jest oś takiego")
+for i in os.listdir('D:\\Szkolenia\\Programowanie\\PWN\\DataAnalyst\\Projects\\PythonBasicD19\\exercisesD6\\pracownicy'):
+    print(i)
