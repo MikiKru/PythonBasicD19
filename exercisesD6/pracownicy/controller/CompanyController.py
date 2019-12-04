@@ -37,6 +37,15 @@ class CompanyController:
         for e in sorted(self.employees, key=lambda e : e.salary, reverse=True):
             print(e)
     #3. wyświetlenie tylko kierowników lub dyrektorów posortowanych po loginie A-Z
+    def getManagersAndHeadsOrderByLoginASC(self):
+        result = filter(lambda e : e.__class__.__name__ == "Employee" and e.permission.value in [2,3],
+                        self.employees)
+        for i in sorted(result, key=lambda e:e.login, reverse=False):
+            print(i)
+        # for e in self.employees:
+        #     if(e.__class__.__name__ == "Employee"):
+        #         if(e.permission.value in [2,3]):
+        #             print(e)
 
     #4. wyświetlenie praktykantów posortowanych po loginie Z-A
     def getTraineeOrderByLogin(self):
