@@ -46,16 +46,37 @@ class CompanyController:
         #     if(e.__class__.__name__ == "Employee"):
         #         if(e.permission.value in [2,3]):
         #             print(e)
-
     #4. wyświetlenie praktykantów posortowanych po loginie Z-A
     def getTraineeOrderByLogin(self):
         # filtruje liste pracowników i zwraca tylko praktykantów
         result = filter(lambda e : e.__class__.__name__ == "Trainee", self.employees)
         for t in sorted(result,key=lambda t : t.login, reverse=True):
             print(t)
-    # przypisanie nagrody do pracownika lub praktykanta
-
-    # zmiana pensji tylko dla pracownika
-
-    # usuwanie pracownika lub praktykanta z listy
+    #5. przypisanie nagrody do pracownika lub praktykanta po loginie jeśli nie podamy loginu to premiea dla wszystkich
+    def setPrise(self, amount, login = ""):
+        if(login != ""):
+            islogin = False
+            for e in self.employees:
+                if(e.login == login):
+                    e.assignPrise(amount)
+                    islogin = True
+                    break
+            if(islogin == False):
+                print("Błędny login pracownika")
+        else:
+            for e in self.employees:
+                e.assignPrise(amount)
+        self.getEmployees()
+    #6. zmiana pensji tylko dla pracownika
+    def changeEmployeeSalary(self, login, salary):
+        isEmployee = False
+        for e in self.employees:
+            if(e.login == login and e.__class__.__name__ == "Employee"):
+                e.salary = salary
+                isEmployee = True
+                break
+        if(isEmployee == False):
+            print("Błędyn login lub typ pracownika")
+        self.getEmployees()
+    #7. usuwanie pracownika lub praktykanta z listy
 
