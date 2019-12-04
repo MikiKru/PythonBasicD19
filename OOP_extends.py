@@ -16,8 +16,12 @@ class AutoComparator:
     def compareAutos(self, a1, a2):
         print("%15s | %15s" % (a1.model, a2.model))
         print("%15s | %15s" % (a1.engine_type, a2.engine_type))
-
-        # print("%15s | %15s" % (a1.acu_cap, a2.acu_cap))
+        if(a1.__class__.__name__ == "Hybrid" and a2.__class__.__name__ == "Hybrid"):
+            print("%15s | %15s" % (a1.acu_cap, a2.acu_cap))
+        elif(a1.__class__.__name__ == "Hybrid"):
+            print("%15s | %15s" % (a1.acu_cap, "B/D"))
+        elif(a2.__class__.__name__ == "Hybrid"):
+            print("%15s | %15s" % ("B/D", a2.acu_cap))
 # obiekt klasy Auto
 a = Auto("VW Passat", "TDI 2.0")
 print(a)
@@ -30,5 +34,7 @@ ac = AutoComparator()
 ac.compareAutos(a,a)
 ac.compareAutos(h,h)
 ac.compareAutos(a,h)
-print(a.__class__.__name__)
-print(h.__class__.__name__)
+ac.compareAutos(h,a)
+
+
+
