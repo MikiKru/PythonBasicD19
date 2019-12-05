@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="" />
+    <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/exercisesD7/sql/python_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD7/sql/python_db.sql" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,12 +330,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Szkolenia\Programowanie\PWN\DataAnalyst\Projects\PythonBasicD19" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Szkolenia\Programowanie\PWN\DataAnalyst\Projects\PythonBasicD19\exercisesD6\pracownicy" />
       <recent name="D:\Szkolenia\Programowanie\PWN\DataAnalyst\Projects\PythonBasicD19\exercisesD5\P67" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Szkolenia\Programowanie\PWN\DataAnalyst\Projects\PythonBasicD19\exercisesD7\sql" />
+      <recent name="D:\Szkolenia\Programowanie\PWN\DataAnalyst\Projects\PythonBasicD19" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -485,15 +488,16 @@
       <workItem from="1575273793001" duration="26037000" />
       <workItem from="1575361400648" duration="16784000" />
       <workItem from="1575382558243" duration="30729000" />
-      <workItem from="1575533128162" duration="8250000" />
+      <workItem from="1575533128162" duration="8854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159166000" />
+    <option name="totallyTimeSpent" value="159770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

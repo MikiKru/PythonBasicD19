@@ -37,6 +37,36 @@ create table subtask(
 	task_id int,
     foreign key (task_id) references task(task_id)
 );
+CREATE OR REPLACE VIEW summary AS
+SELECT 
+	t.name as task_name, 
+    t.status as task_status, 
+    s.detail_description, 
+    s.deadline, 
+    s.status as subtask_status, 
+    u.name as username, 
+    u.lastname
+FROM
+	user as u 
+		join
+    task as t on (t.user_id = u.user_id)
+		left join 
+	subtask as s on (t.task_id = s.task_id)
+ORDER BY
+	1, 2;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
