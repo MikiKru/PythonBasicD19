@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exercisesD7/database_app/TaskManagerRun.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD7/database_app/TaskManagerRun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercisesD7/database_app/controller/TaskManagerController.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD7/database_app/controller/TaskManagerController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercisesD7/database_app/model/Subtask.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD7/database_app/model/Subtask.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +152,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercisesD7/database_app/model/Subtask.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="99" lean-forward="true" selection-start-line="9" selection-start-column="99" selection-end-line="9" selection-end-column="99" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -496,19 +499,19 @@
       <workItem from="1575361400648" duration="16784000" />
       <workItem from="1575382558243" duration="30729000" />
       <workItem from="1575533128162" duration="14569000" />
-      <workItem from="1575552974948" duration="5632000" />
+      <workItem from="1575552974948" duration="6023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171117000" />
+    <option name="totallyTimeSpent" value="171508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="DB Browser" weight="0.24713585" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22422259" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22422259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.32901135" />
@@ -925,7 +928,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercisesD7/database_app/model/Subtask.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="99" lean-forward="true" selection-start-line="9" selection-start-column="99" selection-end-line="9" selection-end-column="99" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
