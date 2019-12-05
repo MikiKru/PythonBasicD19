@@ -16,11 +16,11 @@ class TaskManagerController:
         print("...CONNECTED...")
         self.cursor = self.connection.cursor()
 
-    def inserdUser(self, email, password, name, lastname, gender):
+    def insertUser(self, email, password, name, lastname, gender):
         u = User(email,password,name,lastname,gender)
         # wykoananie polecenia SQL -> nie zwraca waniku
         self.cursor.execute("INSERT INTO user VALUES (default, %s, %s, %s, %s, %s)",
-                            u.email, u.password, u.name, u.lastname, u.gender)
+                            (u.email, u.password, u.name, u.lastname, u.gender))
         print("DODANO",u.email)
     def selectUsers(self):
         # wykoanie zapytania SQL -> zwraca wynik
