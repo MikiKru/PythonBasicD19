@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/exercisesD7/database_app/controller/TaskManagerController.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD7/database_app/controller/TaskManagerController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercisesD7/sql/database_credentials.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD7/sql/database_credentials.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,19 +100,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercisesD7/database_app/controller/TaskManagerController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-378">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercisesD7/database_app/model/User.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
@@ -215,8 +211,8 @@
         <option value="$PROJECT_DIR$/FilesDirectiries.py" />
         <option value="$PROJECT_DIR$/exercisesD7/database_app/TaskManagerRun.py" />
         <option value="$PROJECT_DIR$/exercisesD7/sql/database_credentials.py" />
-        <option value="$PROJECT_DIR$/exercisesD7/database_app/controller/TaskManagerController.py" />
         <option value="$PROJECT_DIR$/exercisesD7/database_app/model/User.py" />
+        <option value="$PROJECT_DIR$/exercisesD7/database_app/controller/TaskManagerController.py" />
       </list>
     </option>
   </component>
@@ -438,12 +434,12 @@
       <workItem from="1575273793001" duration="26037000" />
       <workItem from="1575361400648" duration="16784000" />
       <workItem from="1575382558243" duration="30729000" />
-      <workItem from="1575533128162" duration="11606000" />
+      <workItem from="1575533128162" duration="12781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162522000" />
+    <option name="totallyTimeSpent" value="163697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="776" extended-state="6" />
@@ -454,7 +450,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20097245" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0659824" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -853,20 +849,17 @@
     <entry file="file://$PROJECT_DIR$/exercisesD7/database_app/TaskManagerRun.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercisesD7/database_app/controller/TaskManagerController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercisesD7/database_app/model/User.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercisesD7/database_app/controller/TaskManagerController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="52" />
         </state>
       </provider>
     </entry>
