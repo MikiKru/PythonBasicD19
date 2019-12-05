@@ -34,3 +34,11 @@ for i in os.listdir('.'):
 print("W katalogu pracowników jest oś takiego")
 for i in os.listdir('D:\\Szkolenia\\Programowanie\\PWN\\DataAnalyst\\Projects\\PythonBasicD19\\exercisesD6\\pracownicy'):
     print(i)
+
+import re
+
+os.chdir("C:\\Users\\PROXIMO\\Desktop") # change directory
+for file in os.listdir('.'):    # list directory w aktualnej lokalizacji
+    print(file)
+
+
