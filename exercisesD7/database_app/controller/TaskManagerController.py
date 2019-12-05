@@ -5,7 +5,6 @@ import pymysql
 
 
 class TaskManagerController:
-    users = []      # koresponduje z rekordami w tabelce user
     def __init__(self):
         self.connection = pymysql.connect(
             host=secret.host,
@@ -56,9 +55,10 @@ class TaskManagerController:
         for row in self.cursor.fetchall():
             print("| %20s | %20s | %20s | %20s | %20s | %20s | %20s |" %
                   (row[0],row[1],row[2],row[3],row[4],row[5],row[6]))
-
-
-
+    def updateTaskDateStop(self, task_id, newDeadline):
+        self.cursor.execute("UPDATE task SET date_stop = %s WHERE task_id = %s", (newDeadline,task_id))
+        self.connection.commit()
+        self.selectTasks()
 
 
 
