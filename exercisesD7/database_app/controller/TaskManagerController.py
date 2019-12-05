@@ -59,7 +59,11 @@ class TaskManagerController:
         self.cursor.execute("UPDATE task SET date_stop = %s WHERE task_id = %s", (newDeadline,task_id))
         self.connection.commit()
         self.selectTasks()
-
+    def deleteTaskById(self, task_id):
+        self.cursor.execute("DELETE FROM task WHERE task_id = %s" , task_id)
+        self.connection.commit()
+        print("USUNIĘTO")
+        self.selectTasks()
 
 
 
