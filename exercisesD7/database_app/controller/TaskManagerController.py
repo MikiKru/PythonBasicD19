@@ -1,4 +1,5 @@
 import exercisesD7.sql.database_credentials as secret
+from exercisesD7.database_app.model.Task import Task
 from exercisesD7.database_app.model.User import User
 import pymysql
 
@@ -37,6 +38,28 @@ class TaskManagerController:
         for row in result:
             u = User(row[1], row[2], row[3], row[4], row[5], row[0])
             print(u)
+    def insertTaskToUser(self, name, description, status, date_stop, user_id):
+        t = Task(name, description,status,date_stop,user_id)
+        self.cursor.execute("INSERT INTO task VALUES (default, %s, %s, %s, default, %s, %s)",
+                            (t.name, t.description, t.status, t.date_stop, t.user_id))
+        self.connection.commit()
+        print("DODANO ZADANIE",t.name)
+    def selectTasks(self):
+        self.cursor.execute("SELECT * FROM task")
+        for row in self.cursor.fetchall():
+            t = Task(row[1],row[2],row[3],row[5],row[6],row[0],row[4])
+            print(t)
+    def selectSummary(self):
+        self.cursor.execute("SELECT * FROM summary")
+        print("| %20s | %20s | %20s | %20s | %20s | %20s | %20s |" %
+              ("ZADANIE","OPIS","PODZADANIE","DEADLINE","STATUS","IMIE","NAZWISKO"))
+        for row in self.cursor.fetchall():
+            print("| %20s | %20s | %20s | %20s | %20s | %20s | %20s |" %
+                  (row[0],row[1],row[2],row[3],row[4],row[5],row[6]))
+
+
+
+
 
 
 
