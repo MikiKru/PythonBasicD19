@@ -1,4 +1,5 @@
 import exercisesD7.sql.database_credentials as secret
+from exercisesD7.database_app.model.Subtask import Subtask
 from exercisesD7.database_app.model.Task import Task
 from exercisesD7.database_app.model.User import User
 import pymysql
@@ -51,7 +52,7 @@ class TaskManagerController:
     def selectSummary(self):
         self.cursor.execute("SELECT * FROM summary")
         print("| %20s | %20s | %20s | %20s | %20s | %20s | %20s |" %
-              ("ZADANIE","OPIS","PODZADANIE","DEADLINE","STATUS","IMIE","NAZWISKO"))
+              ("ZADANIE","STATUS","PODZADANIE","DEADLINE","STATUS","IMIE","NAZWISKO"))
         for row in self.cursor.fetchall():
             print("| %20s | %20s | %20s | %20s | %20s | %20s | %20s |" %
                   (row[0],row[1],row[2],row[3],row[4],row[5],row[6]))
@@ -64,6 +65,12 @@ class TaskManagerController:
         self.connection.commit()
         print("USUNIĘTO")
         self.selectTasks()
+    def insertSubtaskToTask(self, detail_description, deadline, status, task_id):
+        s = Subtask(detail_description,deadline,status,task_id)
+        self.cursor.execute("INSERT INTO subtask VALUES (default, %s, %s, %s, %s)",
+                            (s.detail_description,s.deadline,s.status,s.task_id))
+        print("DODANO SUBTASK",s.detail_description)
+
 
 
 
