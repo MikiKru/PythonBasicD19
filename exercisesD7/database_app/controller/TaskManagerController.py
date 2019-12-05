@@ -21,7 +21,12 @@ class TaskManagerController:
         # wykoananie polecenia SQL -> nie zwraca waniku
         self.cursor.execute("INSERT INTO user VALUES (default, %s, %s, %s, %s, %s)",
                             (u.email, u.password, u.name, u.lastname, u.gender))
-        print("DODANO",u.email)
+        if(input("czy na pewno chcesz dodać:" + u.email + "(T/N)").upper() == "T"):
+            self.connection.commit()    # potwierdzenie strasakcji
+            print("DODANO", u.email)
+        else:
+            self.connection.rollback()    # odrzucenie transakcji
+            print("NIE DODANO", u.email)
     def selectUsers(self):
         # wykoanie zapytania SQL -> zwraca wynik
         self.cursor.execute("SELECT * FROM user")
