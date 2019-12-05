@@ -16,6 +16,7 @@ else:
     print("Jest ok")
 
 
+import time
 
 filePattern = re.compile(".*[\.]{1}(pdf|ppt|pptx)$")
 path = "C:\\Users\\PROXIMO\\Desktop"
@@ -23,9 +24,13 @@ os.chdir(path)          # change directory
 # os.mkdir("test")      # utworznie katalogu
 for file in os.listdir('.'):    # list directory w aktualnej lokalizacji
     if(re.search(filePattern,file)):
-        print("%-50s | %10.2f MB | " % (file, os.path.getsize(file)/(10**6)))
+        print("%-50s | %10.2f MB | %20s | %20s |"
+              % (file,
+                 os.path.getsize(file)/(10**6),
+                 time.ctime(os.path.getctime(file)),
+                 time.ctime(os.path.getmtime(file))))
 
-
+regex = "^\w[^\.]\w$"
 
 
 
