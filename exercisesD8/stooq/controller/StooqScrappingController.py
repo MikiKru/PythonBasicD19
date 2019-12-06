@@ -17,20 +17,19 @@ class StooqScrappingController:
         self.result = [[],[]]
 
         for index, row in enumerate(rows):
-            if(index > 4):
-                # filtrowanie daty
-                date = str(row.find("td", {"id": "f13"})).replace('<td id="f13" nowrap="">', "").replace("</td>", "")
-                if (len(str(row.a).split(">")) > 1):
-                    title = str(row.a).split(">")[1].replace("</a","")
-                    # szukanie tylko dat zgodnych z regexp
-                    if(re.search(date_pattern, date) is not None):
-                        self.result[1].append(date)
-                    # szukamt tylko tytułów zgodnych z regexp
-                    if(re.search(title_pattern,title) is not None and title[0:4] != "<img"):
-                        self.result[0].append(title)
-                    if(title[0:4] == "<img"):
-                        title = "obrazek"
-                        self.result[0].append(title)
+            # filtrowanie daty
+            date = str(row.find("td", {"id": "f13"})).replace('<td id="f13" nowrap="">', "").replace("</td>", "")
+            if (len(str(row.a).split(">")) > 1):
+                title = str(row.a).split(">")[1].replace("</a","")
+                # szukanie tylko dat zgodnych z regexp
+                if(re.search(date_pattern, date) is not None):
+                    self.result[1].append(date)
+                # szukamt tylko tytułów zgodnych z regexp
+                if(re.search(title_pattern,title) is not None and title[0:4] != "<img"):
+                    self.result[0].append(title)
+                if(title[0:4] == "<img"):
+                    title = "obrazek"
+                    self.result[0].append(title)
 
     def getDateAndTitle(self):
         for i, title in enumerate(self.result[0]):
