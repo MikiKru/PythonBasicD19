@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exercisesD8/stooq/controller/StooqScrappingController.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesD8/stooq/controller/StooqScrappingController.py" afterDir="false" />
-    </list>
+    <list default="true" id="3ca2d03c-e91d-4778-abcf-5fc9cfd9d2f2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercisesD8/stooq/controller/StooqScrappingController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+            <state relative-caret-position="450">
+              <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -476,12 +474,12 @@
       <workItem from="1575361400648" duration="16784000" />
       <workItem from="1575382558243" duration="30729000" />
       <workItem from="1575533128162" duration="14569000" />
-      <workItem from="1575552974948" duration="28406000" />
+      <workItem from="1575552974948" duration="29021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193891000" />
+    <option name="totallyTimeSpent" value="194506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="776" extended-state="6" />
@@ -903,8 +901,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercisesD8/stooq/controller/StooqScrappingController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        <state relative-caret-position="450">
+          <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
