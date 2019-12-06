@@ -12,6 +12,7 @@ class StooqScrappingController:
     def filterDateAndTitle(self):
         date_pattern = re.compile(".{3}, [0-9]{1,2} .{3}, [0-9]{1,2}:[0-9]{1,2}")
         title_pattern = re.compile("^.{20,}$")
+        url
         # pobieramy dane z znaczników tr
         rows = self.stooq_html.find_all("tr")
         # [titles , dates, links]
@@ -39,9 +40,10 @@ class StooqScrappingController:
     def getDateAndTitle(self):
         for i, title in enumerate(self.result[0]):
             if i > 0:
-                print(title)
-                print(self.result[1][i])
+                # print(title)
+                # print(self.result[1][i])
+                print(self.result[2][i])
 
 ssc = StooqScrappingController()
 ssc.filterDateAndTitle()
-# ssc.getDateAndTitle()
+ssc.getDateAndTitle()
