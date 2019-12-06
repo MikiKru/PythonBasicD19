@@ -18,6 +18,10 @@ class StooqScrappingController:
 
         for index, row in enumerate(rows):
             # filtrowanie daty
+            try:
+                print(row.a['href'])
+            except:
+                print("nie da się")
             date = str(row.find("td", {"id": "f13"})).replace('<td id="f13" nowrap="">', "").replace("</td>", "")
             if (len(str(row.a).split(">")) > 1):
                 title = str(row.a).split(">")[1].replace("</a","")
@@ -39,4 +43,4 @@ class StooqScrappingController:
 
 ssc = StooqScrappingController()
 ssc.filterDateAndTitle()
-ssc.getDateAndTitle()
+# ssc.getDateAndTitle()
