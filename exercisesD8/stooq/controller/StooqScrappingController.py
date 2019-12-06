@@ -22,7 +22,7 @@ class StooqScrappingController:
             # filtrowanie daty
             try:
                 url = "https://stooq.pl/"+ str(row.a['href'])
-                if(re.search(urlPattern, url) and url not in self.result[2]):
+                if(re.search(urlPattern, url)):
                     self.result[2].append(url)
             except:
                 pass
@@ -40,16 +40,11 @@ class StooqScrappingController:
                     self.result[0].append(title)
 
     def getDateAndTitle(self):
-        print(len(self.result[2]))
-        print(len(self.result[0]))
-        for i in self.result[2]:
-            print(i)
-
-        # for i, url in enumerate(self.result[2]):
-        #     if i > 0:
-        #         print(self.result[0][i])
-        #         print(self.result[1][i])
-        #         print(url)
+        for i, value in enumerate(self.result[1]):
+            if i > 0:
+                print(self.result[0][i])
+                print(self.result[1][i])
+                print(self.result[2][i])
 
 
 
