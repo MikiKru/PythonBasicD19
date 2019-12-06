@@ -13,13 +13,17 @@ stooq_html = BeautifulSoup(stooq_page.content, 'html.parser')
 # print("Pobrana data")
 # print(str(dates[4]).replace('<td id="f13" nowrap="">',"").replace("</td>",""))
 
+import re
+date_pattern = re.compile(".{3}, [0-9]{1,2} .{3}, [0-9]{1,2}:[0-9]{1,2}")
+title_pattern = re.compile()
 
 rows = stooq_html.find_all("tr")
 print("Rekordy")
 for index, row in enumerate(rows):
-# if (index > 25):
-    if(str(row.find("td", {"id" : "f13"}))
-            .replace('<td id="f13" nowrap="">',"").replace("</td>","") is not None):
-        #     print("Data:",str(row.find("td", {"id" : "f13"})).replace('<td id="f13" nowrap="">',"").replace("</td>",""))
-        if(len(str(row.a).split(">")) > 1):
-            print("Title:", str(row.a).split(">")[1].replace("</a",""))
+    # filtrowanie daty
+    date = str(row.find("td", {"id": "f13"})).replace('<td id="f13" nowrap="">', "").replace("</td>", "")
+    # szukanie tylko dat zgodnych z regexp
+    # if(re.search(date_pattern, date) is not None):
+    #     print("Data:", date)
+    if(len(str(row.a).split(">")) > 1):
+        print("Title:", str(row.a).split(">")[1].replace("</a",""))
