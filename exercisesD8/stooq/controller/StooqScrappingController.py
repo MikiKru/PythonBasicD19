@@ -76,7 +76,24 @@ class StooqScrappingController:
                 print(self.result[3][i-1])
                 # pzapisanie rekordów w DB
                 self.insertDataIntoDB(i)
+    def formatDateTime(self, oldDate):
+        monthNameConv = {
+            "sty" : "01", "lut" : "02", "mar" : "03", "kwi" : "04", "maj" : "05", "cze" : "06",
+            "lip" : "07", "sie" : "08", "wrz" : "09", "paź" : "10", "lis" : "11", "gru" : "12"
+        }
+        oldDate = oldDate[5:]               # odcięcie nazwy dnia tygodnia
+        oldDate = str(oldDate).split(" ")   # podział daty po spacjach
+        day = oldDate[0]
+        month = monthNameConv[oldDate[1].replace(",","")]   # konwersja nazwy miesiąca na decimal
+        hours_minutes = oldDate[2]
+        import datetime
+        newDate = \
+        str(datetime.datetime.today().year)+"-"+str(month)+"-"+str(day).zfill(2)+" "+hours_minutes
+
+        print(oldDate, newDate)
+        return newDate
 
 ssc = StooqScrappingController()
-ssc.filterDateAndTitleAndUrl()
-ssc.getDateAndTitle()
+# ssc.filterDateAndTitleAndUrl()
+# ssc.getDateAndTitle()
+print(ssc.formatDateTime("pią, 6 gru, 15:24"))
