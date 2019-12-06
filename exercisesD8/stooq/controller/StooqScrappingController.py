@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+from exercisesD7.database_app.controller.TaskManagerController import toExport
 
 class StooqScrappingController:
     def __init__(self):
@@ -9,8 +10,9 @@ class StooqScrappingController:
         # na zwróconym obiekcie strony parsujemy do formatu html
         self.stooq_html = BeautifulSoup(stooq_page.content, 'html.parser')
         # połącznie z DB
-
-
+        db = toExport()
+        self.connection = db[0]
+        self.cursor = db[1]
 
     def filterDateAndTitleAndUrl(self):
         date_pattern = re.compile(".{3}, [0-9]{1,2} .{3}, [0-9]{1,2}:[0-9]{1,2}")
