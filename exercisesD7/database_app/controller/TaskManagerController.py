@@ -4,19 +4,23 @@ from exercisesD7.database_app.model.Task import Task
 from exercisesD7.database_app.model.User import User
 import pymysql
 
+def toExport():
+    connection = pymysql.connect(
+        host=secret.host,
+        user=secret.username,
+        password=secret.password,
+        db=secret.database_name,
+        charset='utf8'
+    )
+    print("...CONNECTED...")
+    cursor = connection.cursor()
+    return connection, cursor
 
 class TaskManagerController:
     def __init__(self):
-        self.connection = pymysql.connect(
-            host=secret.host,
-            user=secret.username,
-            password=secret.password,
-            db=secret.database_name,
-            charset='utf8'
-        )
-        print("...CONNECTED...")
-        self.cursor = self.connection.cursor()
-
+        db = toExport()
+        self.connection = db[0]
+        self.cursor = db[1]
     def insertUser(self, email, password, name, lastname, gender):
         u = User(email,password,name,lastname,gender)
         # wykoananie polecenia SQL -> nie zwraca waniku

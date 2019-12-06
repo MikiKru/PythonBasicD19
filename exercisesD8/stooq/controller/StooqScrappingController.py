@@ -8,6 +8,9 @@ class StooqScrappingController:
         stooq_page = requests.get("https://stooq.pl/n/?s=2&p=4+22&c=0")
         # na zwróconym obiekcie strony parsujemy do formatu html
         self.stooq_html = BeautifulSoup(stooq_page.content, 'html.parser')
+        # połącznie z DB
+
+
 
     def filterDateAndTitleAndUrl(self):
         date_pattern = re.compile(".{3}, [0-9]{1,2} .{3}, [0-9]{1,2}:[0-9]{1,2}")
