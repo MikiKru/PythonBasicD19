@@ -16,9 +16,10 @@ stooq_html = BeautifulSoup(stooq_page.content, 'html.parser')
 
 rows = stooq_html.find_all("tr")
 print("Rekordy")
-for row in rows:
+for index, row in enumerate(rows):
+# if (index > 25):
     if(str(row.find("td", {"id" : "f13"}))
             .replace('<td id="f13" nowrap="">',"").replace("</td>","") is not None):
-        print("Data:",str(row.find("td", {"id" : "f13"})).replace('<td id="f13" nowrap="">',"").replace("</td>",""))
-    if(len(str(row.a).split(">")) > 1):
-        print("Title:", str(row.a).split(">")[1].replace("</a",""))
+        #     print("Data:",str(row.find("td", {"id" : "f13"})).replace('<td id="f13" nowrap="">',"").replace("</td>",""))
+        if(len(str(row.a).split(">")) > 1):
+            print("Title:", str(row.a).split(">")[1].replace("</a",""))
