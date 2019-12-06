@@ -69,6 +69,7 @@ class StooqScrappingController:
     def getDateAndTitle(self):
         for i, value in enumerate(self.result[1]):
             if i > 0:
+                self.result[1][i] = self.formatDateTime(self.result[1][i])
                 print(self.result[0][i])    # tytuły
                 print(self.result[1][i])    # daty
                 print(self.result[2][i])    # linki
@@ -76,6 +77,7 @@ class StooqScrappingController:
                 print(self.result[3][i-1])
                 # pzapisanie rekordów w DB
                 self.insertDataIntoDB(i)
+
     def formatDateTime(self, oldDate):
         monthNameConv = {
             "sty" : "01", "lut" : "02", "mar" : "03", "kwi" : "04", "maj" : "05", "cze" : "06",
@@ -90,10 +92,11 @@ class StooqScrappingController:
         newDate = \
         str(datetime.datetime.today().year)+"-"+str(month)+"-"+str(day).zfill(2)+" "+hours_minutes
 
-        print(oldDate, newDate)
+        # print(oldDate, newDate)
         return newDate
 
 ssc = StooqScrappingController()
-# ssc.filterDateAndTitleAndUrl()
-# ssc.getDateAndTitle()
-print(ssc.formatDateTime("pią, 6 gru, 15:24"))
+ssc.deleteDataFromStooq()
+ssc.filterDateAndTitleAndUrl()
+ssc.getDateAndTitle()
+
