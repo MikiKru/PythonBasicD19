@@ -13,6 +13,15 @@ class StooqScrappingController:
         db = toExport()
         self.connection = db[0]
         self.cursor = db[1]
+    # metoda dodająca skrapowane dane do tabeli DB
+    def insertDataIntoDB(self):
+        self.cursor.execute("INSERT INTO stooq VALUES (default, %s,%s,%s, default)",
+                            (self.result[0], self.result[3], self[1]))
+        self.connection.commit()
+    # metoda usuwająca całą zawartość tabeli
+    def deleteDataFromStooq(self):
+        self.cursor.execute("DELETE FROM stooq")
+        self.connection.commit()
 
     def filterDateAndTitleAndUrl(self):
         date_pattern = re.compile(".{3}, [0-9]{1,2} .{3}, [0-9]{1,2}:[0-9]{1,2}")
@@ -65,6 +74,8 @@ class StooqScrappingController:
                 print(self.result[2][i])    # linki
                 self.getContentByUrl(self.result[2][i])
                 print(self.result[3][i-1])
+
+
 
 ssc = StooqScrappingController()
 ssc.filterDateAndTitleAndUrl()
