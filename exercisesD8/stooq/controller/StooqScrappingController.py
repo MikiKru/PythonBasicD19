@@ -14,9 +14,9 @@ class StooqScrappingController:
         self.connection = db[0]
         self.cursor = db[1]
     # metoda dodająca skrapowane dane do tabeli DB
-    def insertDataIntoDB(self):
+    def insertDataIntoDB(self, i):
         self.cursor.execute("INSERT INTO stooq VALUES (default, %s,%s,%s, default)",
-                            (self.result[0], self.result[3], self[1]))
+                            (self.result[0][i], self.result[3][i-1], self.result[1][i]))
         self.connection.commit()
     # metoda usuwająca całą zawartość tabeli
     def deleteDataFromStooq(self):
@@ -74,8 +74,8 @@ class StooqScrappingController:
                 print(self.result[2][i])    # linki
                 self.getContentByUrl(self.result[2][i])
                 print(self.result[3][i-1])
-
-
+                # pzapisanie rekordów w DB
+                self.insertDataIntoDB(i)
 
 ssc = StooqScrappingController()
 ssc.filterDateAndTitleAndUrl()
