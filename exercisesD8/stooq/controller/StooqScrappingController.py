@@ -15,8 +15,8 @@ class StooqScrappingController:
         urlPattern = re.compile("^https:\/\/stooq.pl\/n\/\?f=.*")
         # pobieramy dane z znaczników tr
         rows = self.stooq_html.find_all("tr")
-        # [titles , dates, links]
-        self.result = [[], [], []]
+        # [titles , dates, links, content]
+        self.result = [[], [], [], []]
 
         for index, row in enumerate(rows):
             # filtrowanie daty
@@ -44,10 +44,13 @@ class StooqScrappingController:
         content_html = BeautifulSoup(content_page.content, 'html.parser')
 
         content = content_html.find_all("font", attrs={"id" : "f13"})     # szukamy znacznika font z parametrem id = f13
-
-        for c in content:
-            print(c)
-
+        filtered_content = list(content)[2]
+        filtered_content = str(filtered_content).split("<br/><br/><br/>")[1].split("<p>")
+        result = ""
+        for sentence in filtered_content[0:len(filtered_content)-1]:
+            result += sentence + " "
+        self.result[3].append(result)
+        return result
 
     def getDateAndTitle(self):
         for i, value in enumerate(self.result[1]):
@@ -55,10 +58,9 @@ class StooqScrappingController:
                 print(self.result[0][i])    # tytuły
                 print(self.result[1][i])    # daty
                 print(self.result[2][i])    # linki
-
-
+                self.getContentByUrl(self.result[2][i])
+                print(self.result[3][i-1])
 
 ssc = StooqScrappingController()
-# ssc.filterDateAndTitleAndUrl()
-# ssc.getDateAndTitle()
-ssc.getContentByUrl("https://stooq.pl/n/?f=1326700&c=0&p=4+22")
+ssc.filterDateAndTitleAndUrl()
+ssc.getDateAndTitle()
