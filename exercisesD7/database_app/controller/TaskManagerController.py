@@ -70,7 +70,7 @@ class TaskManagerController:
         self.cursor.execute("INSERT INTO subtask VALUES (default, %s, %s, %s, %s)",
                             (s.detail_description,s.deadline,s.status,s.task_id))
         print("DODANO SUBTASK",s.detail_description)
-
+        self.connection.commit()
 
 
 
