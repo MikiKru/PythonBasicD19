@@ -37,3 +37,7 @@ class StooqScrappingController:
             if i > 0:
                 print(title)
                 print(self.result[1][i])
+
+ssc = StooqScrappingController()
+ssc.filterDateAndTitle()
+ssc.getDateAndTitle()
