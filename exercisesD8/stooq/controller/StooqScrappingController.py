@@ -16,14 +16,14 @@ class StooqScrappingController:
         # pobieramy dane z znaczników tr
         rows = self.stooq_html.find_all("tr")
         # [titles , dates, links]
-        self.result = [[], [], set([])]
+        self.result = [[], [], []]
 
         for index, row in enumerate(rows):
             # filtrowanie daty
             try:
                 url = "https://stooq.pl/"+ str(row.a['href'])
-                if(re.search(urlPattern, url)):
-                    self.result[2].add(url)
+                if(re.search(urlPattern, url) and url not in self.result[2]):
+                    self.result[2].append(url)
             except:
                 pass
             date = str(row.find("td", {"id": "f13"})).replace('<td id="f13" nowrap="">', "").replace("</td>", "")
@@ -40,11 +40,18 @@ class StooqScrappingController:
                     self.result[0].append(title)
 
     def getDateAndTitle(self):
-        for i, url in enumerate(self.result[2]):
-            if i > 0:
-                print(self.result[0][i])
-                print(self.result[1][i])
-                print(url)
+        print(len(self.result[2]))
+        print(len(self.result[0]))
+        for i in self.result[2]:
+            print(i)
+
+        # for i, url in enumerate(self.result[2]):
+        #     if i > 0:
+        #         print(self.result[0][i])
+        #         print(self.result[1][i])
+        #         print(url)
+
+
 
 ssc = StooqScrappingController()
 ssc.filterDateAndTitle()
