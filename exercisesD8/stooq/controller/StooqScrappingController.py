@@ -14,14 +14,15 @@ class StooqScrappingController:
         title_pattern = re.compile("^.{20,}$")
         # pobieramy dane z znaczników tr
         rows = self.stooq_html.find_all("tr")
-        self.result = [[],[]]
+        # [titles , dates, links]
+        self.result = [[], [], []]
 
         for index, row in enumerate(rows):
             # filtrowanie daty
             try:
-                print(row.a['href'])
+                self.result[2].append("https://stooq.pl/"+ str(row.a['href']))
             except:
-                print("nie da się")
+                pass
             date = str(row.find("td", {"id": "f13"})).replace('<td id="f13" nowrap="">', "").replace("</td>", "")
             if (len(str(row.a).split(">")) > 1):
                 title = str(row.a).split(">")[1].replace("</a","")
